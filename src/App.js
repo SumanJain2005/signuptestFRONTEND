@@ -6,11 +6,11 @@ import Login from './Login';
 function App() {
   return (
     <Router>
-      <Switch>
+      <Routes>
         <Route path="/signup" component={Signup} />
         <Route path="/login" component={Login} />
         {/* Add more routes as needed */}
-      </Switch>
+      </Routes>
     </Router>
   );
 }
