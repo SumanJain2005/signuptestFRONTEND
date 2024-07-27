@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/signup" component={Signup} />
-        <Route path="/login" component={Login} />
+        <Route path="/signup" element={Signup} />
+        <Route path="/login" element={Login} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>
